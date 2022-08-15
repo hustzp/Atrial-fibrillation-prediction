@@ -6,8 +6,6 @@ Requirement
 This code was tested on Python 3.6 with Tensorflow-gpu 2.0.0 and Keras 2.3.1. In addition, Sklearn 0.0, Numpy 1.16.2 and Pandas 1.1.1 were also used. 
 
 Files
-Demo.zip contains all scripts and some test data for evaluating the performance of the model. Using the command line:
-	$ unzip Demo.zip
 Demo/data contains part of the test data that were used in the paper. Demo/model contains the trained model. Demo/util contains the scripts of extracting input samples from the test data and the scripts of testing input samples with the trained model. The AURC of the test data will be saved in Demo/output as .csv file. Demo/mian.py is the script for executing all the processes of this code.
 
 Model
