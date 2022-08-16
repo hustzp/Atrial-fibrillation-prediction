@@ -12,12 +12,14 @@ Model.
 	The model used in the paper is a convolutional, long short-term memory, and fully connected deep neural network, the architecture of the model is shown in Figure 1. The model receives an input tensor with dimension (N, 90, 1), and returns an output tensor with dimension (N, 2), for which N is the batch size. The model presented in Demo/model is a well-trained model and can be directly used to test the data.
 
 ![image](https://github.com/hustzp/Atrial-fibrillation-prediction/blob/main/source/Figure1.png)
+
 Figure 1. Architecture of the convolutional, long short-term memory, and fully connected deep neural networks.
 
 Input of the model: shape = (N, 90, 1). The input tensor should contain the 90 points of the RR interval sample. 90 RR interval samples were extracted from the test data. All RR intervals are represented at the scale 1 s, therefore, if the input data are in ms it should be divided by 1000 before feeding it to the neural network model.
 Output of the model: shape = (N, 2). The output contains two probabilities of AF and not AF, between 0 and 1, and sum to 1. 
 
 ![image](https://github.com/hustzp/Atrial-fibrillation-prediction/blob/main/source/Figure2.png)
+
 Figure 2. One example of the .txt file of a PAF patient.
 
 Test data.
