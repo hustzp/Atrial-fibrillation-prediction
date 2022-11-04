@@ -1,6 +1,6 @@
 # Atrial-fibrillation-prediction
-HRV-based Explainable AI for predicting the risk of atrial fibrillation.
-A demo for testing deep neural networks for predicting the risk of atrial fibrillation (AF) using RR intervals during sinus rhythm. Companion code to the paper “HRV-based Explainable AI for predicting the risk of atrial fibrillation”.
+Explainable and verifiable AI uses heart beat-to-beat intervals to predict the risk of atrial fibrillation.
+A demo for testing deep neural networks for predicting the risk of atrial fibrillation (AF) using RR intervals during sinus rhythm. Companion code to the paper “Explainable and verifiable AI uses heart beat-to-beat intervals to predict the risk of atrial fibrillation”.
 
 Requirement.
 This code was tested on Python 3.6 with Tensorflow-gpu 2.0.0 and Keras 2.3.1. In addition, Sklearn 0.0, Numpy 1.16.2 and Pandas 1.1.1 were also used. 
